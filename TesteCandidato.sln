@@ -9,17 +9,19 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteCandidatoTriangulo", "
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TesteCandidatoTDD", "TesteCandidatoTDD\TesteCandidatoTDD.csproj", "{EA158C8E-E0FA-43BC-A1F6-BAE6AB2641DC}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ConsultaCep", "ConsultaCep\ConsultaCep.csproj", "{C925673B-9722-46CE-B3C5-D986C4D9D264}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ConsultaCep", "ConsultaCep\ConsultaCep.csproj", "{C925673B-9722-46CE-B3C5-D986C4D9D264}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{16EC0B01-4B14-4A19-A992-3B8375F1B312}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{16EC0B01-4B14-4A19-A992-3B8375F1B312}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Triangulo", "Triangulo", "{E539A894-5DC8-44BD-BB4A-87AF26E5C2B2}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CepCleanArchitecture", "CepCleanArchitecture", "{9690ED66-7899-407C-8140-FB8464A70D6A}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "Application\Application.csproj", "{70A933D2-AB64-4D73-895C-0C279204987C}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "Application\Application.csproj", "{70A933D2-AB64-4D73-895C-0C279204987C}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C7F0EC7D-3B61-4AB2-ACDC-FAF164E94EEA}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Infrastructure", "Infrastructure\Infrastructure.csproj", "{C7F0EC7D-3B61-4AB2-ACDC-FAF164E94EEA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Tests", "Tests\Tests.csproj", "{EC688E80-948C-4761-B3AB-DE91578F16B5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -55,6 +57,10 @@ Global
 		{C7F0EC7D-3B61-4AB2-ACDC-FAF164E94EEA}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{C7F0EC7D-3B61-4AB2-ACDC-FAF164E94EEA}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{C7F0EC7D-3B61-4AB2-ACDC-FAF164E94EEA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC688E80-948C-4761-B3AB-DE91578F16B5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC688E80-948C-4761-B3AB-DE91578F16B5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC688E80-948C-4761-B3AB-DE91578F16B5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC688E80-948C-4761-B3AB-DE91578F16B5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -67,6 +73,7 @@ Global
 		{16EC0B01-4B14-4A19-A992-3B8375F1B312} = {9690ED66-7899-407C-8140-FB8464A70D6A}
 		{70A933D2-AB64-4D73-895C-0C279204987C} = {9690ED66-7899-407C-8140-FB8464A70D6A}
 		{C7F0EC7D-3B61-4AB2-ACDC-FAF164E94EEA} = {9690ED66-7899-407C-8140-FB8464A70D6A}
+		{EC688E80-948C-4761-B3AB-DE91578F16B5} = {9690ED66-7899-407C-8140-FB8464A70D6A}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F4F69071-FBBC-461D-9AC3-2B8E4150AA70}
